@@ -34,10 +34,10 @@ Projekt symuluje ruch łyżew na lodzie, uwzględniając zasady fizyki. Umożliw
 
 ## Opis działania
 
-* `stworz_elipse(center_x, center_y, radius_x, radius_y, n=100)`: Tworzy elipsę o zadanych parametrach.
-* `nowe_wspolrzedne_1(t, x_1, klatki, v_akt, x_2, y_1, y_2)`: Oblicza nowe współrzędne dla łyżwy pierwszej w kolejnej chwili.
-* `nowe_wspolrzedne_2(t, x_1, klatki, v_akt, x_2, y_1, y_2)`: Oblicza nowe współrzędne dla łyżwy drugiej w kolejnej chwili.
-* `przyspieszanie(v_akt, predkosc_maksymalna, a, czas_przyspieszania, opoznienie, skala)`: Symuluje ruch łyżew.
+* `stworz_elipse()`: Tworzy elipsę o zadanych parametrach.
+* `nowe_wspolrzedne_1()`: Oblicza nowe współrzędne dla łyżwy pierwszej w kolejnej chwili.
+* `nowe_wspolrzedne_2()`: Oblicza nowe współrzędne dla łyżwy drugiej w kolejnej chwili.
+* `przyspieszanie()`: Symuluje ruch łyżew.
 
 ## Uwagi
 
