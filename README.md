@@ -1,4 +1,4 @@
-# Ice skates symulation
+# Ice skates simulation
 
 Projekt symuluje ruch łyżew na lodzie, uwzględniając zasady fizyki. Umożliwia wizualizację trajektorii ruchu oraz analizę zmian prędkości i położenia w czasie. 
 
@@ -11,7 +11,7 @@ Projekt symuluje ruch łyżew na lodzie, uwzględniając zasady fizyki. Umożliw
 
 1. Sklonuj repozytorium:
    ```sh
-   git clone https://github.com/Weisjan/Ice-skates-symulation.git
+   git clone https://github.com/Weisjan/Ice-skates-simulation.git
    ```
 2. Zaimportuj bibliotekę "Plots":
    ```sh
