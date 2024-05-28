@@ -1,4 +1,4 @@
-# Projekt Symulacji Ruchu Łyżwiarza
+# Ice skates symulation
 
 Projekt symuluje ruch łyżew na lodzie, uwzględniając zasady fizyki. Umożliwia wizualizację trajektorii ruchu oraz analizę zmian prędkości i położenia w czasie. 
 
