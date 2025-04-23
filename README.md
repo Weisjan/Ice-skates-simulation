@@ -1,48 +1,47 @@
-# Ice skates simulation
+# Ice Skates Simulation
 
-Projekt symuluje ruch łyżew na lodzie, uwzględniając zasady fizyki. Umożliwia wizualizację trajektorii ruchu oraz analizę zmian prędkości i położenia w czasie. 
+This project simulates the motion of ice skates on ice, taking into account physical principles. It enables visualization of motion trajectories as well as analysis of changes in speed and position over time.
 
-## Wymagania
+## Requirements
 
-* Julia 1.10.3
+* Julia 1.10.3  
 * Plots
 
-## Instalacja
+## Installation
 
-1. Sklonuj repozytorium:
+1. Clone the repository:
    ```sh
    git clone https://github.com/Weisjan/Ice-skates-simulation.git
    ```
-2. Zaimportuj bibliotekę "Plots":
-   ```sh
-   Import Pkg
+2. Import the **Plots** library:
+   ```julia
+   import Pkg
    Pkg.add("Plots")
    ```
-3. Uruchom plik projektu w środowisku Julia:
-   ```sh
+3. Run the project file in the Julia environment:
+   ```julia
    include("lyzwy.jl")
    ```
-4. Ustaw odpowiednie parametry, takie jak masa łyżwiarza, siła odpychająca, przyspieszenie, oraz parametry symulacji.
+4. Set appropriate parameters such as the skater’s mass, pushing force, acceleration, and simulation parameters.
 
+## Files
 
-## Pliki
+| No | File Name    | Description                                               |
+|----|--------------|-----------------------------------------------------------|
+| 1  | lyzwy.jl      | Main file containing the simulation implementation        |
+| 2  | Readme.md     | This README file                                          |
 
-| Nr | Nazwa Pliku | Opis 
-|----|------------|-------|
-| 1  | lyzwy.jl | Główny plik projektu zawierający implementację symulacji ruchu łyżew
-| 2  | Readme.md | Plik Readme
+## Function Descriptions
 
-## Opis działania
+* `stworz_elipse()`: Creates an ellipse based on the given parameters.  
+* `nowe_wspolrzedne_1()`: Calculates new coordinates for the first skate at the next time step.  
+* `nowe_wspolrzedne_2()`: Calculates new coordinates for the second skate at the next time step.  
+* `przyspieszanie()`: Simulates the acceleration of the skates.
 
-* `stworz_elipse()`: Tworzy elipsę o zadanych parametrach.
-* `nowe_wspolrzedne_1()`: Oblicza nowe współrzędne dla łyżwy pierwszej w kolejnej chwili.
-* `nowe_wspolrzedne_2()`: Oblicza nowe współrzędne dla łyżwy drugiej w kolejnej chwili.
-* `przyspieszanie()`: Symuluje przyspieszenie łyżew.
+## Notes
 
-## Uwagi
+- Default parameters may not reflect real-world values. They are approximations for the purpose of demonstrating the simulation.
 
-- Domyślne parametry mogą nie być zgodne z rzeczywistością. Są one przybliżone w celu przedstawienia działania symulacji
-
-## Autor
+## Author
 
 [Jan Weis](https://github.com/Weisjan)
